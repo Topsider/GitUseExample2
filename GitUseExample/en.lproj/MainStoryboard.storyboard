@@ -28,9 +28,16 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="Qwb-uq-JzN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQ9-dL-OLG">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="UQ9-dL-OLG" secondAttribute="bottom" constant="193" id="G8v-R9-UpU"/>
+                            <constraint firstItem="UQ9-dL-OLG" firstAttribute="centerX" secondItem="Epd-Cr-hho" secondAttribute="centerX" type="default" id="Xwo-kj-NVS"/>
                             <constraint firstItem="Epd-Cr-hho" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="YWW-D0-UgO"/>
                             <constraint firstItem="Epd-Cr-hho" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="yxZ-Qf-SR4"/>
                         </constraints>
